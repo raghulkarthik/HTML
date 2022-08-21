@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<form>
+		<legend>STEP 1: Your Details</legend> <br> <ol> <li>
+	<label>Name</label>
+		 <input type="text" name="name" placeholder="First and last name"><br> </li>
+	<li><label>Email</label>	
+		 <input type="email" name="emailtype" placeholder="ex-example@demo.com"><br> </li>
+	<li><label>Phone</label>	
+		 <input type="tel" name="phone" placeholder="ex-0000000000">  </li> </ol> <br>
+	    <legend>STEP 2: Delivery address</legend> <ol><br>
+	    <li>
+	<label>Address</label>
+	     <textarea name="address" rows="2"></textarea>	 </li> <br>
+	<li><label>Post code</label>
+	     <input type="text" name="postcode"> </li> <br>
+	<li><label>Country</label>
+	      <input type="text" name="country"> </li> </ol><br>
+	<br> <legend>STEP 3: Card Details</legend> <ol>
+		<li> 
+	<label>Card Type</label>  <ol><li>
+	      <input type="radio" name="cardtype">  
+	<label for=visa>VISA</label> </li>
+	      <li> <input type="radio" name="cardtype">  
+	<label for=amex>AmEx</label> </li>
+	     <li><input type="radio" name="cardtype">  
+	<label for=mastercard>MasterCard</label> </li></ol> <br>
+	<li>           
+    <label>Card number</label>
+           <input type="number required" name="cardnumber"> <br> </li>
+    <li><label>Security code</label>
+           <input type="number required" name="secure"> <br> </li>
+    <li><label>Name on card</label> 
+           <input type="number required" name="namecard" placeholder="Exact name as on the card"> </li> 
+       </ol>
+       <button type="submit">Submit</button>
+</form>
+</body>
+</html>
